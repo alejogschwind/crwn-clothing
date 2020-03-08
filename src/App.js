@@ -10,8 +10,8 @@ import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
 import SignInPage from './pages/sign-in/sign-in.component';
 import Header from './components/header/header.component';
-
 import './App.css';
+
 
 const HatsPage = () => (
   <div>
