@@ -7,6 +7,11 @@ import { createSelector } from 'reselect';
    (cart) => cart.cartItems
  );
 
+ export const selectCartHidden = createSelector(
+   [selectCart],
+   cart => cart.hidden
+ )
+
 export const selectCartItemsCount = createSelector(
   [selectCartItems],
   cartItems => 
